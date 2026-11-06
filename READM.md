@@ -28,21 +28,17 @@ This project analyzes worldwide COVID-19 data using the Worldometer daily corona
 
 ## How to Run / Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repository-url>
-   cd <your-repository-folder>
-   ```
 
-2. **Install the required libraries**
+
+1. **Install the required libraries**
    ```bash
    pip install pandas matplotlib seaborn plotly jupyter
    ```
 
-3. **Add the dataset**
+2. **Add the dataset**
    Place `worldometer_coronavirus_daily_data (1).csv` in the same folder as the notebook (or update the file path in the first cell).
 
-4. **Run the notebook**
+3. **Run the notebook**
    - Locally: `jupyter notebook Final_Project_10.ipynb`, then run all cells.
    - On Google Colab: upload `Final_Project_10.ipynb` and the CSV file, then choose *Runtime → Run all*.
 
@@ -54,7 +50,7 @@ This project analyzes worldwide COVID-19 data using the Worldometer daily corona
 ├── worldometer_coronavirus_daily_data (1).csv  
 └── README.md                                   
 ```
-
+ 
 ## Author / Developer
 
 **Kunal Vaghela**
